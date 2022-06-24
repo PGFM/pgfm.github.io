@@ -1,0 +1,154 @@
+body{
+	margin: 20px;
+	background-color: #76b5c5;
+}
+
+/*Cover section- This contains first section of the website like the header, socials handles and image*/
+.border{
+	text-align: center;
+	border: #888888;
+	border-radius: 50px;
+	height: 500px;
+	padding: 30px;
+	box-shadow: rgba(0,0,0,0.8) 0px 3px 10px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	background-image: url(./img/border1.jpg);
+	background-repeat: no-repeat;
+	background-size: 1490px 700px;
+}
+
+div a{
+	display: inline-block;
+	padding-right: 40px;
+}
+
+h1{
+   color: ghostwhite;
+   font-family: cursive;
+   font-size: xx-large;
+}
+
+h2{
+	 color: ghostwhite;
+	  font-family: cursive;
+	  font-size: medium;
+}
+
+#isolo{
+	  color: ghostwhite;
+	  font-family: cursive;
+	  font-size: x-large;
+}
+
+#first{
+	border-radius: 360%;
+	transition: all 1s;
+}
+
+#first:hover{
+	transform: scale(1.1);
+}
+
+.border-properties{
+	font-family: monospace;
+	font-size: 1.4em;
+	border: #888888;
+	border-radius: 50px;
+	box-shadow: rgba(0,0,0,0.8) 0px 3px 10px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	margin: auto;
+	margin-top: 40px;
+	padding: 20px;
+	background-color: #abdbe3;
+}
+
+/*About me section of the website*/
+.border2{
+	text-align: left;
+	padding-bottom: 95px;
+	width: 100vwpx;
+	height: 30vh;
+}
+
+#firstparagraph{
+   text-align: left;
+}
+
+
+/*Skills section*/
+.border3{
+	padding-bottom: 60px;
+	width: 100vwpx;
+	height: 30vh;
+}
+
+/*Work history*/
+.border4{
+	width: 700vwpx;
+	height: 70vhpx;
+}
+
+/*Educational history*/
+.border5{
+	width: 100vwpx;
+	height: 20vhpx;
+}
+
+.push{
+	text-align-last: right;
+	justify-content: right;
+	/*position: relative;
+	left: 600px;*/
+	margin-left: auto;
+}
+
+/*Certificates*/
+.border6{
+	width: 100vwpx;
+	height: 50vhpx;
+}
+
+/*Hobbies/Interest*/
+.border7{
+   margin-bottom: 40px;
+	width: 100vwpx;
+	height: 20vhpx;
+}
+
+/*Images of me and friends*/
+.center{
+	text-align: center;
+	font-family: monospace;
+	font-size: 1.7em;
+}
+
+.zone {
+    cursor:pointer;
+    color:#FFF;
+    border-radius:50px;
+    border:1px solid #bbb;
+ }
+
+.container{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img {
+
+	width: 100%;
+ }
+
+ .box {
+ 	  /*background-image: url(./img/miguel.jpg);
+ 	  background-repeat: no-repeat;
+ 	  background-size: cover;*/
+ 	  background-color: #abdbe3;
+     margin: 20px;
+     padding: 50px;
+ }
+
+/*Referees*/
+.border8  {
+	width: 100vwpx;
+	height: 10vhpx;
+}
