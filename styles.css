@@ -1,0 +1,205 @@
+body{
+	margin: 20px;
+	background-color: #fff;
+}
+
+/*Cover section- This contains first section of the website like the header, socials handles and image*/
+.border{
+	text-align: center;
+	border: #888888;
+	border-radius: 50px;
+	height: 500px;
+	padding: 30px;
+	box-shadow: rgba(0,0,0,0.8) 0px 3px 10px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	background-image: url(./img/border.jpg);
+	background-repeat: no-repeat;
+	background-size: 1490px 700px;
+}
+
+div a{
+	display: inline-block;
+	padding-right: 40px;
+}
+
+h1{
+   color: ghostwhite;
+   font-family: cursive;
+   font-size: xx-large;
+}
+
+h2{
+	 color: ghostwhite;
+	  font-family: cursive;
+	  font-size: medium;
+}
+
+#isolo{
+	  color: ghostwhite;
+	  font-family: cursive;
+	  font-size: x-large;
+}
+
+#first{
+	border-radius: 360%;
+	transition: all 1s;
+}
+
+#first:hover{
+	transform: scale(1.1);
+}
+
+/*About me section of the website*/
+.border2{
+	text-align: left;
+	font-family: cursive;
+	font-size: 1.2em;
+	border: #888888;
+	border-radius: 50px;
+	box-shadow: rgba(0,0,0,0.8) 0px 3px 10px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	margin: auto;
+	margin-top: 40px;
+	padding: 20px;
+	padding-bottom: 95px;
+	width: 100vwpx;
+	height: 30vh;
+	background-color: ghostwhite;
+}
+
+#firstparagraph{
+   text-align: left;
+}
+
+
+/*Skills section*/
+.border3{
+	border: #888888;
+	border-radius: 50px;
+	font-family: cursive;
+	font-size: 1.2em;
+	box-shadow: rgba(0,0,0,0.8) 0px 3px 10px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	margin: auto;
+	margin-top: 40px;
+	padding: 20px;
+	padding-bottom: 60px;
+	width: 100vwpx;
+	height: 30vh;
+	background-color: ghostwhite;
+}
+
+/*Work history*/
+.border4{
+	border: #888888;
+	border-radius: 50px;
+	font-family: cursive;
+	font-size: 1.2em;
+	box-shadow: rgba(0,0,0,0.8) 0px 3px 10px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	margin: auto;
+	margin-top: 40px;
+	padding: 20px;
+	width: 700vwpx;
+	height: 70vhpx;
+	background-color: ghostwhite;
+}
+
+/*Educational history*/
+.border5{
+	border: #888888;
+	border-radius: 50px;
+	font-family: cursive;
+	font-size: 1.2em;
+	box-shadow: rgba(0,0,0,0.8) 0px 3px 10px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	margin: auto;
+	margin-top: 40px;
+	padding: 20px;
+	width: 100vwpx;
+	height: 20vhpx;
+	background-color: ghostwhite;
+}
+
+.push{
+	text-align-last: right;
+	justify-content: right;
+	/*position: relative;
+	left: 600px;*/
+	margin-left: auto;
+}
+
+/*Certificates*/
+.border6{
+	border: #888888;
+	border-radius: 50px;
+	font-family: cursive;
+	font-size: 1.2em;
+	box-shadow: rgba(0,0,0,0.8) 0px 3px 10px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	margin: auto;
+	margin-top: 40px;
+	padding: 20px;
+	width: 100vwpx;
+	height: 50vhpx;
+	background-color: ghostwhite;
+}
+
+/*Hobbies/Interest*/
+.border7{
+	border: #888888;
+	border-radius: 50px;
+	font-family: cursive;
+	font-size: 1.2em;
+	box-shadow: rgba(0,0,0,0.8) 0px 3px 10px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	margin: auto;
+	margin-top: 40px;
+   margin-bottom: 40px;
+	padding: 20px;
+	width: 100vwpx;
+	height: 20vhpx;
+	background-color: ghostwhite;
+}
+
+/*Images of me and friends*/
+.center{
+	text-align: center;
+	font-family: cursive;
+	font-size: 1.5em;
+}
+
+.zone {
+    cursor:pointer;
+    color:#FFF;
+    border-radius:50px;
+    border:1px solid #bbb;
+ }
+
+.container{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img {
+
+	width: 100%;
+ }
+
+ .box {
+ 	  /*background-image: url(./img/miguel.jpg);
+ 	  background-repeat: no-repeat;
+ 	  background-size: cover;*/
+ 	  background-color: ghostwhite;
+     margin: 20px;
+     padding: 50px;
+ }
+
+/*Referees*/
+.border8  {
+	border: #888888;
+	border-radius: 50px;
+	font-family: cursive;
+	font-size: 1.2em;
+	box-shadow: rgba(0,0,0,0.8) 0px 3px 10px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	margin: auto;
+	margin-top: 40px;
+	padding: 20px;
+	width: 100vwpx;
+	height: 10vhpx;
+	background-color: ghostwhite;
+}
